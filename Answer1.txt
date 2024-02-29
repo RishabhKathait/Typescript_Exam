@@ -1,0 +1,15 @@
+function checkOddEven(num: number): string {
+    if(num % 2 ==0) {
+        return 'Even';
+    } else {
+        return 'odd';
+    }
+}
+
+const EvenNumberToCheck = 8;
+const result1 = checkOddEven(EvenNumberToCheck);
+console.log(`${EvenNumberToCheck} is an ${result1} number`);
+
+const OddNumberToCheck = 9;
+const result2 = checkOddEven(OddNumberToCheck);
+console.log(`${OddNumberToCheck} is an ${result2} number`);
